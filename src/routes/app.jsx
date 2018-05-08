@@ -1,5 +1,5 @@
-import Dash from 'containers/Dash/Dash.jsx';
-import Pages from 'containers/Pages/Pages.jsx';
+import Dash from '../containers/Dash/Dash.jsx';
+import Pages from '../containers/Pages/Pages.jsx';
 
 var appRoutes = [
     { path: "/auth/login-page", name: "Auth", component: Pages },

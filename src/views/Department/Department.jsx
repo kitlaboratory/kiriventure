@@ -10,10 +10,10 @@ import Datetime from 'react-datetime';
 import StarRatings from 'react-star-ratings';
 import moment from 'moment';
 import Masonry from 'react-masonry-component';
-import Button from 'elements/CustomButton/CustomButton.jsx';
+import Button from '../../elements/CustomButton/CustomButton.jsx';
 import SweetAlert from 'react-bootstrap-sweetalert';
-import Card from 'components/Card/Card.jsx';
-import Radio from 'elements/CustomRadio/CustomRadio.jsx';
+import Card from '../../components/Card/Card.jsx';
+import Radio from '../../elements/CustomRadio/CustomRadio.jsx';
 import {createFlow, getFlows, deleteFlow, updateFlow, 
         createUser, getUsers, deleteUser, updateUser,
         createTask, getTasks, deleteTask, updateTask,

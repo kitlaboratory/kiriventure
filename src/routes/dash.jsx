@@ -1,9 +1,9 @@
-import Dashboard from 'views/Dashboard/Dashboard.jsx';
-import Department from 'views/Department/Department.jsx';
-import Calendar from 'views/Calendar/Calendar.jsx';
-import Credo from 'views/Credo/Credo.jsx';
+import Dashboard from '../views/Dashboard/Dashboard.jsx';
+import Department from '../views/Department/Department.jsx';
+import Calendar from '../views/Calendar/Calendar.jsx';
+import Credo from '../views/Credo/Credo.jsx';
 import pageRoute from './pages.jsx';
-import ManageDep from 'views/Department/Manage.jsx';
+import ManageDep from '../views/Department/Manage.jsx';
 import {getDepartments} from '../firebase/database';
 
 

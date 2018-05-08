@@ -4,10 +4,10 @@ import {
     FormGroup, ControlLabel, FormControl
 } from 'react-bootstrap';
 
-import Card from 'components/Card/Card.jsx';
-import './login.css'
+import Card from '../../components/Card/Card.jsx';
+import './login.css';
 
-import Button from 'elements/CustomButton/CustomButton.jsx';
+import Button from '../../elements/CustomButton/CustomButton.jsx';
 import {doSignInWithEmailAndPassword} from '../../firebase/auth';
 import {getRef} from '../../firebase/database';
 import {firebase} from '../../firebase';

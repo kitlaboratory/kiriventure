@@ -4,12 +4,12 @@ import {
     Route
 } from 'react-router-dom';
 
-import Footer from 'components/Footer/Footer.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 // dinamically create pages routes
-import pagesRoutes from 'routes/pages.jsx';
+import pagesRoutes from '../../routes/pages.jsx';
 
-import bgImage from 'assets/img/full-screen-image-3.jpg';
+import bgImage from '../../assets/img/full-screen-image-3.jpg';
 
 class Pages extends Component{
     getPageClass(){

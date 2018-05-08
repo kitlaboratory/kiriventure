@@ -4,9 +4,9 @@ import {
     Table, Modal, FormGroup, ControlLabel, FormControl
 } from 'react-bootstrap';
 // react component that creates a switch button that changes from on to off mode
-import Button from 'elements/CustomButton/CustomButton.jsx';
+import Button from '../../elements/CustomButton/CustomButton.jsx';
 import SweetAlert from 'react-bootstrap-sweetalert';
-import Card from 'components/Card/Card.jsx';
+import Card from '../../components/Card/Card.jsx';
 import {createDepartment, getDepartments, deleteDepartment, updateDepartment} from '../../firebase/database'
 
 const INITIALSTATE = {

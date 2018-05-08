@@ -3,8 +3,8 @@ import { Grid, Col, Row } from 'react-bootstrap';
 // react component used to create charts
 import ChartistGraph from 'react-chartist';
 
-import Card from 'components/Card/Card.jsx';
-import StatsCard from 'components/Card/StatsCard.jsx';
+import Card from '../../components/Card/Card.jsx';
+import StatsCard from '../../components/Card/StatsCard.jsx';
 
 import {
     dataPie,
@@ -12,7 +12,7 @@ import {
     optionsSales,
     responsiveSales,
     table_data
-} from 'variables/Variables.jsx';
+} from '../../variables/Variables.jsx';
 
 class Dashboard extends Component{
     createTableData(){

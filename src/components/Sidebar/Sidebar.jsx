@@ -4,18 +4,18 @@ import { NavLink } from 'react-router-dom';
 import { Collapse } from 'react-bootstrap';
 // this is used to create scrollbars on windows devices like the ones from apple devices
 import * as Ps from 'perfect-scrollbar';
-import 'perfect-scrollbar/dist/css/perfect-scrollbar.min.css';
+import '../../../node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css';
 
-import HeaderLinks from 'components/Header/HeaderLinks.jsx';
+import HeaderLinks from '../../components/Header/HeaderLinks.jsx';
 
 // backgroundImage for Sidebar
-import image from 'assets/img/full-screen-image-3.jpg';
+import image from '../../assets/img/full-screen-image-3.jpg';
 // image for avatar in Sidebar
-import avatar from 'assets/img/faces/face-0.jpg';
+import avatar from '../../assets/img/faces/face-0.jpg';
 // logo for sidebar
-import logo from "logo.svg";
+import logo from "../../logo.svg";
 
-import dashRoutes from 'routes/dash.jsx';
+import dashRoutes from '../../routes/dash.jsx';
 
 const bgImage = {backgroundImage: "url("+image+")"};
 

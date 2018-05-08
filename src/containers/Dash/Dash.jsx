@@ -8,12 +8,12 @@ import {
 import * as Ps from 'perfect-scrollbar';
 import 'perfect-scrollbar/dist/css/perfect-scrollbar.min.css';
 
-import Sidebar from 'components/Sidebar/Sidebar.jsx';
-import Header from 'components/Header/Header.jsx';
-import Footer from 'components/Footer/Footer.jsx';
+import Sidebar from '../../components/Sidebar/Sidebar.jsx';
+import Header from '../../components/Header/Header.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 // dinamically create dashboard routes
-import {NonAuthenticateRoute, AuthenticatedRoute} from 'routes/dash.jsx';
+import {NonAuthenticateRoute, AuthenticatedRoute} from '../../routes/dash.jsx';
 import {firebase} from '../../firebase';
 
 class Dash extends Component{

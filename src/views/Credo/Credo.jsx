@@ -5,9 +5,9 @@ import {
 } from 'react-bootstrap';
 // react component that creates a switch button that changes from on to off mode
 import Switch from 'react-bootstrap-switch';
-import Button from 'elements/CustomButton/CustomButton.jsx';
+import Button from '../../elements/CustomButton/CustomButton.jsx';
 import SweetAlert from 'react-bootstrap-sweetalert';
-import Card from 'components/Card/Card.jsx';
+import Card from '../../components/Card/Card.jsx';
 import {createCredo, getCredos, updateIsActive, updateCredo, deleteCredo} from '../../firebase/database';
 
 const INITIALSTATE = {
